@@ -1,2 +1,24 @@
 
 /* Your CSS Code here. */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.holder {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    width: %; 
+    height: 40vh; 
+    padding: 10px; 
+}
+
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    margin: 10px; /* Space between items */
+    flex: 1 1 100px; 
+    box-sizing: border-box; 
